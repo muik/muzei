@@ -15,7 +15,7 @@
   -->
 
 <resources>
-    <string name="app_name">Muzei</string>
+    <string name="app_name">Muzei for 4.1</string>
     <string name="app_description">Muzei Live Wallpaper</string>
 
     <string name="settings_title">Muzei Settings</string>

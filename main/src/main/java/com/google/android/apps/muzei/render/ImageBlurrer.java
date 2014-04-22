@@ -18,10 +18,10 @@ package com.google.android.apps.muzei.render;
 
 import android.content.Context;
 import android.graphics.Bitmap;
-import android.renderscript.Allocation;
-import android.renderscript.Element;
-import android.renderscript.RenderScript;
-import android.renderscript.ScriptIntrinsicBlur;
+import android.support.v8.renderscript.Allocation;
+import android.support.v8.renderscript.Element;
+import android.support.v8.renderscript.RenderScript;
+import android.support.v8.renderscript.ScriptIntrinsicBlur;
 
 public class ImageBlurrer {
     public static final int MAX_SUPPORTED_BLUR_PIXELS = 25;

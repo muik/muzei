@@ -49,8 +49,11 @@ android {
     versionProps.load(new FileInputStream(file('version.properties')))
 
     defaultConfig {
-        minSdkVersion 17
+        minSdkVersion 16
         targetSdkVersion 19
+
+        renderscriptTargetApi 19
+        renderscriptSupportMode true
 
         versionName versionProps['name']
         versionCode versionProps['code'].toInteger()
