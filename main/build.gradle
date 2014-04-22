@@ -78,6 +78,7 @@ android {
             runProguard true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), file('proguard-project.txt')
             signingConfig signingConfigs.release
+            packageNameSuffix ".muik"
         }
 
         publicBeta.initWith(buildTypes.release)
