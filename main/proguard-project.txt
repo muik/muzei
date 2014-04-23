@@ -26,3 +26,6 @@
 }
 
 -dontobfuscate
+
+# libraries
+-keep class android.support.v8.** { *; }
